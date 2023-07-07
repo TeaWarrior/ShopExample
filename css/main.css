@@ -1,0 +1,201 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+    background-color: white;
+    min-width: 320px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+section{
+    padding: 50px 0;
+}
+a {
+    color: black;
+}
+a :hover{
+    color: red;
+}
+
+/* -- HEADER --*/
+
+.navbar-light .navbar-nav .nav-link{
+    color: indianred;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-nav .dropdown-menu{
+    right: 0;
+    left: auto;
+}
+.top-menu li a::after{
+content: '';
+    display: block;
+    width: 100%;
+    background-color: #111111;
+    height: 1px;
+    transition: all .3s;
+    transform: scale(0);
+}
+.top-menu li a:hover::after{
+    transform: scale(1);
+}
+
+.modal-body img{
+    width: 100px;
+}
+
+/* -- HEADER --*/
+/* -- CAROUSEL --*/
+.my-carousel{
+    padding: 0;
+    background-color: indianred;
+}
+.my-carousel .carousel-item img{
+     border-radius: 35px;
+     margin-left: auto;
+     margin-right: auto;
+
+     max-width: 200px;
+
+
+}
+.my-carousel .carousel-item{
+    display: flex;
+
+}
+
+
+
+
+/* -- CAROUSEL --*/
+
+/* -- Product CARD -- */
+.product-card{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06);
+    transition: all .3s;
+    margin-bottom: 5px;
+}
+.product-card:hover{
+    box-shadow: 0 14px 30px -15px rgba(0,0,0,0.75);
+    transition: all .3s;
+}
+.product-thumb a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding: 20px;
+}
+.product-thumb img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.product-details{
+    padding: 20px;
+}
+.product-details h4 a{
+    font-weight: 500;
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.product-details p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #999;
+    height: 44px;
+    overflow: hidden;
+}
+.product-bottom-details{
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+.product-price{
+    font-size: 18px;
+    color: #ee6e73;
+    font-weight: 600;
+}
+.product-price small{
+    color:  #ccc;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+.product-links{
+    font-size: 20px;
+    margin-left: 10px;
+}
+/* -- Product CARD -- */
+/* -- Footer -- */
+.footer{
+    background-color: indianred;
+}
+.footer h4{
+    color: lightsalmon;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid plum;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    transition: all .3s;
+}
+.footer li a{
+    display: block;
+}
+/* -- Footer -- */
+/*-- Login/Registration --*/
+
+.form{
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-size: 15px;
+    background-color: #ee6e73;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 35px;
+    padding: 20px;
+    box-shadow: 0px 15px 10px 0px rgba(1,1,1,0.5);
+}
+.form .btn{
+    margin-top: 25px;
+    background-color: darksalmon;
+}
+.login-registration{
+    background-color: darkgrey;
+}
+.input{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: lightgrey;
+    outline: none;
+}
+
+.label{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.message{
+    border: 10px solid rebeccapurple;
+}
+/*-- Login/Registration --*/
+
+
+
